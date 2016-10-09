@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StyleSpan</string>
+    <dimen name="text_padding">16dp</dimen>
+    <string name="android_html_text"><![CDATA[<p><b>Android</b> has the largest installed base of all operating systems <i>(OS)</i> of any kind. <b>Android</b> has been the best selling OS on tablets since 2013, and on smartphones it is dominant by any metric.<sup>[15][16]</sup></p>]]></string>
+</resources>
