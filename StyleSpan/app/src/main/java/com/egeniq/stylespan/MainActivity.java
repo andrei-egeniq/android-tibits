@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView)findViewById(R.id.text_view);
         textView.setTypeface(mRegularTypeface);
-        textView.setText(builder);
+        textView.setText(builder, TextView.BufferType.SPANNABLE);
     }
 
     private void mCreateTypeface() {
