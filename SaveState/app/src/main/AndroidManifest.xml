@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.egeniq.state"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.egeniq.state.app.StateApplication"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.egeniq.state.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.egeniq.state.search.SearchActivity"/>
+
+    </application>
+
+</manifest>
